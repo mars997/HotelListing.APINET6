@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HotelListing.API.Migrations
 {
     [DbContext(typeof(HotelListingDbContext))]
-    [Migration("20230117010302_InitialMigration2")]
-    partial class InitialMigration2
+    [Migration("20230308024310_SeededCountriesAndHotels")]
+    partial class SeededCountriesAndHotels
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
